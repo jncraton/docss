@@ -20,7 +20,8 @@ img {
   height: auto;
 }
 
-body {
+body,
+figure {
   margin: 0;
 }
 
