@@ -119,11 +119,13 @@ figure {
   width: 100%;
 }
 
+/* Allow large tables and code blocks to scroll */
 figure,
 pre {
   overflow: scroll;
 }
 
+/* Add lines between table rows */
 td,
 th {
   border-top: 1px solid #eee;
