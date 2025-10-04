@@ -113,10 +113,11 @@ label:has(input:checked)::before {
   content: '☐';
 }
 
-/* Stretch tables to max width */
 table,
 figure {
+  /* Remove gap between cell borders */
   border-spacing: 0;
+  /* Stretch tables to max width */
   width: 100%;
 }
 
