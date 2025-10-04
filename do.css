@@ -125,17 +125,9 @@ pre {
   overflow: scroll;
 }
 
-tr {
-  background-color: #fafafa;
-}
-
-tr:nth-child(even) {
-  background-color: #eee;
-}
-
+td,
 th {
-  background-color: var(--c);
-  color: white;
+  border-top: 1px solid #eee;
 }
 
 th,
@@ -143,6 +135,6 @@ td,
 pre,
 figcaption,
 caption {
-  padding: 0.5em 1em;
+  padding: 0.5em 2em 0.5em 0;
   text-align: left;
 }
