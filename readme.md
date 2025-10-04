@@ -1,4 +1,4 @@
-# doCss
+# doCSS
 
 Simple stylesheet for web documents
 
