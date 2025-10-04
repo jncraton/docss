@@ -31,6 +31,12 @@ body > * {
   padding: 0 calc((100vw - 960px) / 2);
 }
 
+body > header,
+body > footer {
+  background-color: #eee;
+  box-shadow: 0 0 3px #aaa;
+}
+
 header * {
   margin: 4px 0;
 }
