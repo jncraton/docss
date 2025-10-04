@@ -132,6 +132,7 @@ th {
 
 th,
 td,
+figcaption,
 caption {
   padding: 0.5em 1em;
   text-align: left;
