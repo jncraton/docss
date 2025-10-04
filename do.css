@@ -59,13 +59,10 @@ pre {
   padding-left: 1em;
 }
 
-input,
-select,
-textarea {
-  padding: 0.25em 0.5em;
-}
-
+/* Style button and select */
 button,
+input,
+textarea,
 [type='submit'],
 [type='button'],
 select {
@@ -74,9 +71,13 @@ select {
   background-color: var(--c);
   color: #fff;
   padding: 0.5em 1em;
+  box-shadow: 0 1px 3px #ccc;
 }
 
-select {
+/* Revert select to default color */
+select,
+input,
+textarea {
   color: #000;
   background: revert;
 }
