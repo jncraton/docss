@@ -24,7 +24,7 @@ body > * {
 body > header,
 body > footer {
   background: linear-gradient(to top, #f5f5f5, #fcfcfc);
-  box-shadow: 0 0 3px var(--c);
+  box-shadow: 0 0 2px var(--c);
 }
 
 nav * {
