@@ -21,8 +21,12 @@ img {
 }
 
 body,
-figure {
+figure,
+header *,
+fieldset {
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body > * {
@@ -38,23 +42,13 @@ body > footer {
   box-shadow: 0 0 3px var(--c);
 }
 
-header * {
-  margin: 4px 0;
-}
-
 nav * {
   display: inline;
-  padding: 0;
 }
 
 a,
 a:visited {
   color: var(--c);
-}
-
-fieldset {
-  border: 0;
-  padding: 0;
 }
 
 input,
