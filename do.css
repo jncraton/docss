@@ -1,3 +1,7 @@
+:root {
+  --color: #075;
+}
+
 body {
   font-size: 125%;
   line-height: 1.5;
@@ -9,6 +13,7 @@ h3,
 th,
 caption {
   font-weight: 800;
+  color: var(--color);
 }
 
 img {
@@ -32,7 +37,7 @@ nav * {
 
 a,
 a:visited {
-  color: #14c;
+  color: var(--color);
 }
 
 input,
@@ -46,7 +51,7 @@ button,
 [type='button'] {
   border: 0;
   border-radius: 5px;
-  background-color: #14c;
+  background-color: var(--color);
   color: #fff;
   padding: 0.5em 1em;
 }
