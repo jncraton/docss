@@ -6,3 +6,11 @@
 Simple stylesheet for web documents
 
 [Demo](https://jncraton.github.io/docss)
+
+## Usage
+
+Add the following to the `<head>` element of a page to use the hosted version of this stylesheet:
+
+```html
+<link rel="stylesheet" href="https://jncraton.github.io/docss/do.min.css" />
+```
