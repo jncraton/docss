@@ -22,12 +22,10 @@ img {
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 body > * {
   max-width: var(--w);
-  margin: 0;
   font-family: sans-serif;
   overflow: auto;
   padding: 0 calc((100vw - var(--w)) / 2);
