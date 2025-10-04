@@ -48,8 +48,7 @@ caption {
 }
 
 /* Color links */
-a,
-a:visited {
+:any-link {
   color: var(--c);
 }
 
