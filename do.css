@@ -8,6 +8,7 @@
 body,
 figure,
 blockquote,
+pre,
 header *,
 fieldset {
   margin: 0;
@@ -23,7 +24,8 @@ body > * {
 }
 
 body > header,
-body > footer {
+body > footer,
+pre {
   background: linear-gradient(to top, #f5f5f5, #fcfcfc);
   box-shadow: 0 0 2px var(--c);
 }
@@ -53,7 +55,8 @@ img {
   height: auto;
 }
 
-blockquote {
+blockquote,
+pre {
   border-left: 3px solid var(--c);
   padding-left: 1em;
 }
@@ -138,6 +141,7 @@ th {
 
 th,
 td,
+pre,
 figcaption,
 caption {
   padding: 0.5em 1em;
