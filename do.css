@@ -120,7 +120,8 @@ figure {
   overflow: hidden;
 }
 
-figure {
+figure,
+pre {
   overflow: scroll;
 }
 
