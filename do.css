@@ -19,7 +19,6 @@ fieldset {
 body > * {
   max-width: var(--w);
   font-family: sans-serif;
-  overflow: auto;
   padding: 0.5em calc(max(1em, (100vw - var(--w)) / 2));
 }
 
