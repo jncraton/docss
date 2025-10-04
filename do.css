@@ -8,6 +8,7 @@ h1,
 h2,
 h3,
 th,
+legend,
 caption {
   font-weight: 800;
   color: var(--color);
@@ -35,6 +36,11 @@ nav * {
 a,
 a:visited {
   color: var(--color);
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
 }
 
 input,
