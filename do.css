@@ -42,8 +42,8 @@ textarea {
 }
 
 button,
-[type="submit"],
-[type="button"] {
+[type='submit'],
+[type='button'] {
   border: 0;
   border-radius: 5px;
   background-color: #14c;
@@ -62,8 +62,8 @@ textarea {
   font-family: sans-serif;
 }
 
-[type="radio"],
-[type="checkbox"] {
+[type='radio'],
+[type='checkbox'] {
   display: inline;
 }
 
