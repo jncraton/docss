@@ -108,6 +108,9 @@ label:has(input:checked)::before {
 
 table {
   border-spacing: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--c);
 }
 
 tr:nth-child(even) > td {
