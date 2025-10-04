@@ -113,6 +113,7 @@ label:has(input:checked)::before {
   content: '☐';
 }
 
+/* Stretch tables to max width */
 table,
 figure {
   border-spacing: 0;
@@ -131,6 +132,7 @@ th {
   border-top: 1px solid #eee;
 }
 
+/* Apply uniform padding and alignment to table elements */
 th,
 td,
 figcaption,
