@@ -1,148 +1,183 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="do.css">
-  <title>Classless Stylesheet Test</title>
-</head>
-<body>
-  <header>
-    <h1>Site Title</h1>
-    <p class="tagline">A minimal test page for a classless stylesheet</p>
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="do.css" />
+    <title>Classless Stylesheet Test</title>
+  </head>
+  <body>
+    <header>
+      <h1>Site Title</h1>
+      <p class="tagline">A minimal test page for a classless stylesheet</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section id="home">
-      <h2>Welcome</h2>
-      <p>This section demonstrates paragraphs, emphasis, strong, and inline elements: <em>emphasis</em>, <strong>strong</strong>, <code>code()</code>, <mark>highlight</mark>, and a <a href="#">sample link</a>.</p>
-      <blockquote>
-        <p>“A short example blockquote to check quotation styling.”</p>
-        <footer>— Someone Famous</footer>
-      </blockquote>
-    </section>
+    <main>
+      <section id="home">
+        <h2>Welcome</h2>
+        <p>
+          This section demonstrates paragraphs, emphasis, strong, and inline
+          elements: <em>emphasis</em>, <strong>strong</strong>,
+          <code>code()</code>, <mark>highlight</mark>, and a
+          <a href="#">sample link</a>.
+        </p>
+        <blockquote>
+          <p>“A short example blockquote to check quotation styling.”</p>
+          <footer>— Someone Famous</footer>
+        </blockquote>
+      </section>
 
-    <section id="articles">
-      <h2>Articles</h2>
+      <section id="articles">
+        <h2>Articles</h2>
 
-      <article>
-        <header>
-          <h3>Article One</h3>
-          <p class="meta">By Author — <time datetime="2025-10-03">Oct 3, 2025</time></p>
-        </header>
-        <p>Lead paragraph for article one. It includes an inline <abbr title="HyperText Markup Language">HTML</abbr> abbreviation and a small <small>fine-print</small> note.</p>
+        <article>
+          <header>
+            <h3>Article One</h3>
+            <p class="meta">
+              By Author — <time datetime="2025-10-03">Oct 3, 2025</time>
+            </p>
+          </header>
+          <p>
+            Lead paragraph for article one. It includes an inline
+            <abbr title="HyperText Markup Language">HTML</abbr> abbreviation and
+            a small <small>fine-print</small> note.
+          </p>
+          <figure>
+            <img src="#" alt="Placeholder image" />
+            <figcaption>
+              Figure: placeholder image used for layout testing.
+            </figcaption>
+          </figure>
+          <p>
+            Continuation of the article with a simple ordered list of steps:
+          </p>
+          <ol>
+            <li>First step</li>
+            <li>
+              Second step with a nested list:
+              <ul>
+                <li>Nested item A</li>
+                <li>Nested item B</li>
+              </ul>
+            </li>
+            <li>Third step</li>
+          </ol>
+          <details>
+            <summary>More info</summary>
+            <p>
+              This content is hidden until the user expands the details element.
+            </p>
+          </details>
+          <footer>
+            <p>Tags: <a href="#">example</a>, <a href="#">test</a></p>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>Article Two</h3>
+          </header>
+          <p>Short article demonstrating a table and definition list below.</p>
+
+          <table>
+            <caption>
+              Sample table
+            </caption>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Available</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Responsive</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Accessible</td>
+                <td>Depends</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+          </dl>
+        </article>
+      </section>
+
+      <aside aria-labelledby="related-heading">
+        <h2 id="related-heading">Related</h2>
+        <p>Short aside content with a definition and a link.</p>
+        <ul>
+          <li><a href="#">Related item 1</a></li>
+          <li><a href="#">Related item 2</a></li>
+        </ul>
+      </aside>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
         <figure>
-          <img src="#" alt="Placeholder image">
-          <figcaption>Figure: placeholder image used for layout testing.</figcaption>
+          <img src="#" alt="Thumb 1" />
+          <figcaption>Thumb 1</figcaption>
         </figure>
-        <p>Continuation of the article with a simple ordered list of steps:</p>
-        <ol>
-          <li>First step</li>
-          <li>Second step with a nested list:
-            <ul>
-              <li>Nested item A</li>
-              <li>Nested item B</li>
-            </ul>
-          </li>
-          <li>Third step</li>
-        </ol>
-        <details>
-          <summary>More info</summary>
-          <p>This content is hidden until the user expands the details element.</p>
-        </details>
-        <footer>
-          <p>Tags: <a href="#">example</a>, <a href="#">test</a></p>
-        </footer>
-      </article>
+        <figure>
+          <img src="#" alt="Thumb 2" />
+          <figcaption>Thumb 2</figcaption>
+        </figure>
+      </section>
 
-      <article>
-        <header>
-          <h3>Article Two</h3>
-        </header>
-        <p>Short article demonstrating a table and definition list below.</p>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Send a message</legend>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" />
 
-        <table>
-          <caption>Sample table</caption>
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Available</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Responsive</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>Accessible</td>
-              <td>Depends</td>
-            </tr>
-          </tbody>
-        </table>
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+            />
 
-        <dl>
-          <dt>HTML</dt>
-          <dd>HyperText Markup Language</dd>
-          <dt>CSS</dt>
-          <dd>Cascading Style Sheets</dd>
-        </dl>
-      </article>
-    </section>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write something…"
+            ></textarea>
 
-    <aside aria-labelledby="related-heading">
-      <h2 id="related-heading">Related</h2>
-      <p>Short aside content with a definition and a link.</p>
-      <ul>
-        <li><a href="#">Related item 1</a></li>
-        <li><a href="#">Related item 2</a></li>
-      </ul>
-    </aside>
+            <label
+              ><input type="checkbox" name="subscribe" /> Subscribe to
+              updates</label
+            >
 
-    <section id="gallery">
-      <h2>Gallery</h2>
-      <figure>
-        <img src="#" alt="Thumb 1">
-        <figcaption>Thumb 1</figcaption>
-      </figure>
-      <figure>
-        <img src="#" alt="Thumb 2">
-        <figcaption>Thumb 2</figcaption>
-      </figure>
-    </section>
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Send a message</legend>
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" placeholder="Your name">
-
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="you@example.com">
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" placeholder="Write something…"></textarea>
-
-          <label><input type="checkbox" name="subscribe"> Subscribe to updates</label>
-
-          <button type="submit">Send</button>
-        </fieldset>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Example — <a href="#">Privacy</a> • <a href="#">Terms</a></p>
-  </footer>
-</body>
+    <footer>
+      <p>
+        &copy; 2025 Example — <a href="#">Privacy</a> • <a href="#">Terms</a>
+      </p>
+    </footer>
+  </body>
 </html>
