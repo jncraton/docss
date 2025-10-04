@@ -1,0 +1,61 @@
+body {
+  font-size:125%;
+}
+
+* {
+  font-weight:400;
+}
+
+h1,h2,h3,th,caption {
+  font-weight:800;
+}
+
+body > * {
+  max-width:960px;
+  margin:0 auto;
+  font-family:sans serif;
+}
+
+header * {
+  margin:4px 0;
+}
+
+nav * {
+  display:inline;
+  padding:0;
+}
+
+a, a:visited {
+  color:#14c;
+}
+
+button, [type=submit], [type=button] {
+  border:0;
+  border-radius:5px;
+  background-color:#14c;
+  color:#fff;
+  padding:.5em 1em;
+}
+
+label, input, button, textarea {
+  display:block;
+  margin:.5em 0;
+  font-size:1rem;
+  font-family:sans-serif;
+}
+
+[type=radio], [type=checkbox] {
+  display:inline;
+}
+
+table {
+  border-spacing:0;  
+}
+
+tr:nth-child(even) > td {
+  background-color:#eee;
+}
+
+th,td {
+  padding:5px;
+}
