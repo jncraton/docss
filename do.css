@@ -1,3 +1,4 @@
+/* Define global styles and variables */
 :root {
   --c: #075;
   --w: 720px;
@@ -5,6 +6,7 @@
   line-height: 1.6;
 }
 
+/* Resets */
 body,
 figure,
 blockquote,
@@ -16,6 +18,7 @@ fieldset {
   border: 0;
 }
 
+/* Size and center 1st-level elements */
 body > * {
   max-width: var(--w);
   font-family: sans-serif;
