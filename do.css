@@ -65,20 +65,20 @@ textarea {
   padding: 0.25em 0.5em;
 }
 
-select {
-  background-color: #eee;
-  border: 0;
-  border-radius: 5px;
-}
-
 button,
 [type='submit'],
-[type='button'] {
+[type='button'],
+select {
   border: 0;
   border-radius: 5px;
   background-color: var(--c);
   color: #fff;
   padding: 0.5em 1em;
+}
+
+select {
+  color: #000;
+  background: revert;
 }
 
 /* Stretch most form controls to full width */
