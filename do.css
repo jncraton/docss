@@ -80,7 +80,7 @@ select {
 button,
 [type='submit'],
 [type='button'] {
-  background-color: var(--c);
+  background: var(--c);
   color: #fff;
 }
 
