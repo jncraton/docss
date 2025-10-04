@@ -18,7 +18,7 @@ body > * {
   max-width: var(--w);
   font-family: sans-serif;
   overflow: auto;
-  padding: .5em calc((100vw - var(--w)) / 2);
+  padding: 0.5em calc((100vw - var(--w)) / 2);
 }
 
 body > header,
