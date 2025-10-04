@@ -70,15 +70,17 @@ textarea {
 }
 
 [type='checkbox'] {
-  display:none;
+  display: none;
 }
 
-[type='checkbox'] + label::before, label:has([type='checkbox'])::before {
-  content:"☑";
+[type='checkbox'] + label::before,
+label:has([type='checkbox'])::before {
+  content: '☑';
 }
 
-:checked + label::before, label:has(input:checked)::before {
-  content:"☐";
+:checked + label::before,
+label:has(input:checked)::before {
+  content: '☐';
 }
 
 table {
