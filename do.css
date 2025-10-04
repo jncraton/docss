@@ -27,8 +27,7 @@ body > * {
 
 /* Apply header and footer gradient and edge */
 body > header,
-body > footer,
-pre {
+body > footer {
   background: linear-gradient(to top, #f5f5f5, #fcfcfc);
   box-shadow: 0 0 2px var(--c);
 }
