@@ -49,6 +49,12 @@ textarea {
   padding: 0.25em 0.5em;
 }
 
+select {
+  background-color: #eee;
+  border: 0;
+  border-radius: 5px;
+}
+
 button,
 [type='submit'],
 [type='button'] {
