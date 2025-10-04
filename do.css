@@ -114,6 +114,11 @@ tr:nth-child(even) > td {
   background-color: #eee;
 }
 
+th {
+  background-color: var(--c);
+  color: white;
+}
+
 th,
 td {
   padding: 0.5em 1em;
