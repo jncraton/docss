@@ -11,6 +11,10 @@ caption {
   font-weight: 800;
 }
 
+img {
+  max-width: 100%;
+}
+
 body > * {
   max-width: 960px;
   margin: 0 auto;
