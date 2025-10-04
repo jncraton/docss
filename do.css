@@ -42,7 +42,6 @@ legend,
 caption {
   font-weight: 800;
   color: var(--c);
-  text-shadow: 0 0 2px #ccc;
 }
 
 a,
