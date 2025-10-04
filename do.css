@@ -106,7 +106,12 @@ label:has(input:checked)::before {
   content: '☐';
 }
 
-table {
+figure {
+  overflow: scroll;
+}
+
+table,
+figure {
   border-spacing: 0;
   border-radius: 5px;
   overflow: hidden;
