@@ -116,8 +116,6 @@ label:has(input:checked)::before {
 table,
 figure {
   border-spacing: 0;
-  border-radius: 5px;
-  overflow: hidden;
 }
 
 figure,
