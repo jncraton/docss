@@ -110,7 +110,10 @@ table {
   border-spacing: 0;
   border-radius: 5px;
   overflow: hidden;
-  border: 1px solid var(--c);
+}
+
+tr {
+  background-color: #fafafa;
 }
 
 tr:nth-child(even) > td {
