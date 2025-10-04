@@ -7,10 +7,6 @@ Simple stylesheet for web documents
 
 [Demo](https://jncraton.github.io/docss)
 
-|              | Source | Minified | gzip | brotli |
-| ------------ | ------ | -------- | ---- | ------ |
-| Size (bytes) | 2100   | 1022     | 563  | 436    |
-
 ## Usage
 
 Add the following to the `<head>` element of a page to use the hosted version of this stylesheet:
@@ -18,3 +14,10 @@ Add the following to the `<head>` element of a page to use the hosted version of
 ```html
 <link rel="stylesheet" href="https://jncraton.github.io/docss/do.min.css" />
 ```
+
+## Size
+
+- [do.css](https://jncraton.github.io/docss/do.css) - 2100 bytes
+- [do.min.css](https://jncraton.github.io/docss/do.min.css) - 1022 bytes
+- gzip - 563 bytes
+- brotli - 436 bytes
