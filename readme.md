@@ -1,4 +1,4 @@
-# doCSS
+# ᵈᵒcₛₛ
 
 [![Lint](https://github.com/jncraton/docss/actions/workflows/lint.yml/badge.svg)](https://github.com/jncraton/docss/actions/workflows/lint.yml)
 
