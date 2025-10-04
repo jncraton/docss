@@ -129,7 +129,7 @@ tr {
   background-color: #fafafa;
 }
 
-tr:nth-child(even) > td {
+tr:nth-child(even) {
   background-color: #eee;
 }
 
