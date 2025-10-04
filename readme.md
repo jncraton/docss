@@ -17,7 +17,7 @@ Add the following to the `<head>` element of a page to use the hosted version of
 
 ## Size
 
-- [do.css](https://jncraton.github.io/docss/do.css) - 2100 bytes
-- [do.min.css](https://jncraton.github.io/docss/do.min.css) - 1022 bytes
-- gzip - 563 bytes
-- brotli - 436 bytes
+- [do.css](https://jncraton.github.io/docss/do.css) - 2097 bytes
+- [do.min.css](https://jncraton.github.io/docss/do.min.css) - 1019 bytes
+- gzip - 561 bytes
+- brotli - 454 bytes
