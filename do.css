@@ -1,5 +1,6 @@
 :root {
   --c: #075;
+  --w: 960px;
   font-size: 125%;
   line-height: 1.5;
 }
@@ -24,11 +25,11 @@ body {
 }
 
 body > * {
-  max-width: 960px;
+  max-width: var(--w);
   margin: 0;
   font-family: sans-serif;
   overflow: auto;
-  padding: 0 calc((100vw - 960px) / 2);
+  padding: 0 calc((100vw - var(--w)) / 2);
 }
 
 body > header,
