@@ -193,5 +193,10 @@
         &copy; 2025 Example — <a href="#">Privacy</a> • <a href="#">Terms</a>
       </p>
     </footer>
+    <script>
+      document.querySelector('[name=color]').addEventListener('input', e => {
+        document.documentElement.style.setProperty('--c', e.target.value)
+      })
+    </script>
   </body>
 </html>
