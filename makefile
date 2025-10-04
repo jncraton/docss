@@ -8,9 +8,12 @@ format:
 
 do.min.css: do.css
 	npx minify $< > $@
+
+report-size: do.min.css
+	wc do.css
 	wc $<
-	wc $@
-	gzip --stdout $@ | wc
+	gzip --stdout $< | wc
+	brotli --stdout $< | wc
 
 1280.webp:
 	convert -size 1280x853 -define gradient:angle=225 gradient:#eeeeee-#cccccc -gravity center -pointsize 48 -fill black -annotate +0+0 "1280×853" $@
