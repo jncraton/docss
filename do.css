@@ -81,19 +81,21 @@ button,
   padding: 0.5em 1em;
 }
 
+/* Stretch most form controls to full width */
 label,
 input,
 button,
 select,
 textarea {
+  width: 100%;
+  box-sizing: border-box;
   display: block;
   margin: 0.5em 0;
   font-size: 1rem;
-  font-family: sans-serif;
-  box-sizing: border-box;
-  width: 100%;
+  font-family: sans-serif; /* For textareas */
 }
 
+/* Display small form controls inline with their labels */
 [type='radio'],
 [type='checkbox'] {
   display: inline;
