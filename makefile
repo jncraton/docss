@@ -8,6 +8,8 @@ format:
 
 do.min.css: do.css
 	npx minify $< > $@
+	wc $<
+	wc $@
 	gzip --stdout $@ | wc
 
 1280.webp:
