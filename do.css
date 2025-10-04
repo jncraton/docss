@@ -2,10 +2,6 @@ body {
   font-size:125%;
 }
 
-* {
-  font-weight:400;
-}
-
 h1,h2,h3,th,caption {
   font-weight:800;
 }
