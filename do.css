@@ -34,7 +34,7 @@ body > * {
 
 body > header,
 body > footer {
-  background-color: #eee;
+  background: linear-gradient(to top, #eee, #f7f7f7);
   box-shadow: 0 0 3px #aaa;
 }
 
