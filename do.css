@@ -1,5 +1,5 @@
 :root {
-  --color: #075;
+  --c: #075;
   font-size: 125%;
   line-height: 1.5;
 }
@@ -11,7 +11,7 @@ th,
 legend,
 caption {
   font-weight: 800;
-  color: var(--color);
+  color: var(--c);
 }
 
 img {
@@ -48,7 +48,7 @@ nav * {
 
 a,
 a:visited {
-  color: var(--color);
+  color: var(--c);
 }
 
 fieldset {
@@ -73,7 +73,7 @@ button,
 [type='button'] {
   border: 0;
   border-radius: 5px;
-  background-color: var(--color);
+  background-color: var(--c);
   color: #fff;
   padding: 0.5em 1em;
 }
