@@ -7,6 +7,7 @@
 
 body,
 figure,
+blockquote,
 header *,
 fieldset {
   margin: 0;
@@ -50,6 +51,11 @@ a:visited {
 img {
   max-width: 100%;
   height: auto;
+}
+
+blockquote {
+  border-left: 3px solid var(--c);
+  padding-left: 1em;
 }
 
 input,
