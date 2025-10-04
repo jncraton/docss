@@ -33,6 +33,7 @@ nav * {
   display: inline;
 }
 
+/* Bold elements as appropriate and apply theme color to text */
 h1,
 h2,
 h3,
@@ -43,16 +44,19 @@ caption {
   color: var(--c);
 }
 
+/* Color links */
 a,
 a:visited {
   color: var(--c);
 }
 
+/* Ensure the images fit width and maintain aspect ration */
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* Apply left edge to code and blockquotes */
 blockquote,
 pre {
   border-left: 3px solid var(--c);
