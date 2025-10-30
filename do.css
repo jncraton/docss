@@ -52,7 +52,7 @@ caption {
   color: var(--c);
 }
 
-/* Ensure the images fit width and maintain aspect ration */
+/* Ensure the images fit width and maintain aspect ratio */
 img {
   max-width: 100%;
   height: auto;
