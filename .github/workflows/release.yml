@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  Release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Build Site
+        run: make do.min.css
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            do.css
+            do.min.css
