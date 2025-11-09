@@ -1,5 +1,6 @@
 # ᵈᵒcₛₛ
 
+[![Release](https://github.com/jncraton/docss/actions/workflows/release.yml/badge.svg)](https://github.com/jncraton/docss/actions/workflows/release.yml)
 [![Lint](https://github.com/jncraton/docss/actions/workflows/lint.yml/badge.svg)](https://github.com/jncraton/docss/actions/workflows/lint.yml)
 [![Deploy](https://github.com/jncraton/docss/actions/workflows/deploy.yml/badge.svg)](https://github.com/jncraton/docss/actions/workflows/deploy.yml)
 
