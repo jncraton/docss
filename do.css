@@ -1,6 +1,8 @@
 /* Define global styles and variables */
 :root {
   --c: #075;
+  --bg: #fff;
+  --gray: color-mix(in srgb-linear, var(--bg), #777 8%);
   --w: 720px;
   font-size: 125%;
   line-height: 1.6;
@@ -27,7 +29,7 @@ body > * {
 /* Apply header and footer gradient and edge */
 body > header,
 body > footer {
-  background: linear-gradient(to top, #f5f5f5, #fcfcfc);
+  background: linear-gradient(to top, var(--gray), var(--bg), var(--gray));
   box-shadow: 0 0 2px var(--c);
 }
 
@@ -73,7 +75,7 @@ select {
   border: 0;
   border-radius: 5px;
   padding: 0.5em 1em;
-  box-shadow: 0 1px 3px #ccc;
+  box-shadow: 0 1px 3px #777;
 }
 
 /* Set button color */
@@ -81,7 +83,7 @@ button,
 [type='submit'],
 [type='button'] {
   background: var(--c);
-  color: #fff;
+  color: var(--bg);
 }
 
 /* Stretch most form controls to full width */
@@ -121,7 +123,7 @@ pre {
 /* Add lines between table rows */
 td,
 th {
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--gray);
 }
 
 /* Apply uniform padding and alignment to table elements */
