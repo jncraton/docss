@@ -23,12 +23,15 @@
 
 /* Resets */
 body,
-figure,
-blockquote,
-header *,
-fieldset {
+header * {
   margin: 0;
   padding: 0;
+}
+
+figure,
+blockquote,
+fieldset {
+  margin-inline: 0;
   border: 0;
 }
 
