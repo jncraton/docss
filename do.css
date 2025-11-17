@@ -3,7 +3,7 @@
   --theme: #075;
   --c: var(--theme);
   --bg: #fff;
-  --fg: #000;
+  --fg: #111;
   --gray: color-mix(in srgb, var(--bg), #777 8%);
   --w: 720px;
   background-color: var(--bg);
@@ -17,7 +17,7 @@
   :root {
     --c: color-mix(in oklch, var(--theme), #fff 20%);
     --bg: #000;
-    --fg: #fff;
+    --fg: #eee;
   }
 }
 
