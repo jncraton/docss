@@ -45,8 +45,7 @@ body > * {
 /* Apply header and footer gradient and edge */
 body > header,
 body > footer {
-  box-shadow: 0 0 0.5rem #777;
-  background: var(--gray);
+  box-shadow: 0 0 0.5rem #999;
 }
 
 /* Display nav items horizontally */
