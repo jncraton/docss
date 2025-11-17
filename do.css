@@ -41,12 +41,6 @@ body > * {
   padding: 0.5em calc(max(1em, 50vw - var(--w) / 2));
 }
 
-/* Apply header and footer gradient and edge */
-body > header,
-body > footer {
-  box-shadow: 0 0 0.5rem #999;
-}
-
 /* Display nav items horizontally */
 nav {
   display: flex;
