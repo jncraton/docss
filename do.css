@@ -15,7 +15,7 @@
 /* Define dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --c: color-mix(in oklch, var(--theme), #fff 20%);
+    --c: color-mix(in oklch, var(--theme), #fff 40%);
     --bg: #000;
     --fg: #eee;
   }
