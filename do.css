@@ -50,7 +50,18 @@ body > footer {
 }
 
 /* Display nav items horizontally */
-nav * {
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+
+nav button {
+  width: revert;
+}
+
+menu > * {
   display: inline;
 }
 
