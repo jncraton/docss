@@ -4,7 +4,6 @@
   --c: var(--theme);
   --bg: #fff;
   --fg: #111;
-  --gray: color-mix(in srgb, var(--bg), #ccc 20%);
   --w: 720px;
   background-color: var(--bg);
   color: var(--fg);
@@ -100,7 +99,7 @@ select {
   border: 0;
   border-radius: 8px;
   padding: 0.5em 1em;
-  box-shadow: 0 1px 3px #777;
+  box-shadow: 0 0 8px #999;
   color: var(--fg);
   background-color: var(--bg);
 }
@@ -150,7 +149,7 @@ pre {
 /* Add lines between table rows */
 td,
 th {
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid #999;
 }
 
 /* Apply uniform padding and alignment to table elements */
