@@ -4,7 +4,7 @@
   --c: var(--theme);
   --bg: #fff;
   --fg: #111;
-  --gray: color-mix(in srgb, var(--bg), #777 8%);
+  --gray: color-mix(in srgb, var(--bg), #ccc 20%);
   --w: 720px;
   background-color: var(--bg);
   color: var(--fg);
@@ -45,8 +45,8 @@ body > * {
 /* Apply header and footer gradient and edge */
 body > header,
 body > footer {
-  background: linear-gradient(to top, var(--gray), var(--bg), var(--gray));
-  box-shadow: 0 0 2px var(--c);
+  box-shadow: 0 0 0.5rem #777;
+  background: var(--gray);
 }
 
 /* Display nav items horizontally */
@@ -55,7 +55,6 @@ nav {
   flex-wrap: wrap;
   gap: 1em;
 }
-
 
 nav button {
   width: revert;
