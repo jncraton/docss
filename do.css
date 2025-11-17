@@ -1,11 +1,24 @@
 /* Define global styles and variables */
 :root {
-  --c: #075;
+  --theme: #075;
+  --c: var(--theme);
   --bg: #fff;
-  --gray: color-mix(in srgb-linear, var(--bg), #777 8%);
+  --fg: #000;
+  --gray: color-mix(in srgb, var(--bg), #777 8%);
   --w: 720px;
+  background-color: var(--bg);
+  color: var(--fg);
   font-size: 125%;
   line-height: 1.6;
+}
+
+/* Define dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c: color-mix(in oklch, var(--theme), #fff 20%);
+    --bg: #000;
+    --fg: #fff;
+  }
 }
 
 /* Resets */
@@ -76,6 +89,8 @@ select {
   border-radius: 5px;
   padding: 0.5em 1em;
   box-shadow: 0 1px 3px #777;
+  color: var(--fg);
+  background-color: var(--bg);
 }
 
 /* Set button color */

@@ -7,7 +7,7 @@ format:
 	npx prettier --write .
 
 do.min.css: do.css
-	npx minify $< > $@
+	npx minify@8.0.4 $< > $@
 
 report-size: do.min.css
 	wc do.css
