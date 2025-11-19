@@ -145,12 +145,6 @@ pre {
   overflow: scroll;
 }
 
-/* Add lines between table rows */
-td,
-th {
-  border-top: 1px solid #999;
-}
-
 /* Apply uniform padding and alignment to table elements */
 th,
 td,
