@@ -4,6 +4,7 @@
   --c: var(--theme);
   --bg: #fff;
   --bg2: color-mix(in srgb-linear, var(--bg), #777 8%);
+  --gray: color-mix(in srgb-linear, var(--bg), #777 20%);
   --fg: #111;
   --w: 720px;
   background-color: var(--bg);
@@ -66,6 +67,7 @@ legend,
 caption {
   font-weight: 800;
   color: var(--c);
+  border-bottom: 2px solid var(--gray);
 }
 
 /* Color links */
