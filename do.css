@@ -3,6 +3,7 @@
   --theme: #075;
   --c: var(--theme);
   --bg: #fff;
+  --bg2: color-mix(in srgb-linear, var(--bg), #777 8%);
   --fg: #111;
   --w: 720px;
   background-color: var(--bg);
@@ -81,8 +82,10 @@ img {
 /* Apply left edge to code and blockquotes */
 blockquote,
 pre {
-  border-left: 3px solid var(--c);
-  padding-left: 1em;
+  border-left: 5px solid var(--c);
+  padding: 1em;
+  background: var(--bg2);
+  border-radius: 0 1em 1em 0;
 }
 
 /* Set form control shape and shadow */
