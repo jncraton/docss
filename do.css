@@ -71,6 +71,11 @@ legend,
 caption {
   font-weight: 800;
   color: var(--c);
+}
+
+h1,
+h2,
+h3 {
   border-bottom: 2px solid var(--gray);
 }
 
@@ -87,6 +92,7 @@ img {
 
 /* Apply left edge to code and blockquotes */
 blockquote,
+table,
 pre {
   border-left: 5px solid var(--c);
   padding: 1em;
