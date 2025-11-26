@@ -13,9 +13,9 @@
       <nav>
         <menu>
           <li><a href="#overview">Overview</a></li>
-          <li><a href="#articles">Articles</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#forms">Forms</a></li>
         </menu>
       </nav>
       <nav>
@@ -25,31 +25,35 @@
     </header>
 
     <main>
-      <section id="overview">
-        <h2>Overview</h2>
-        <p>
-          Common semantic block elements, such as paragraphs are supported.
-          Inline elements such as <em>emphasis</em>, <strong>strong</strong>,
-          <code>code()</code>, <mark>highlight</mark>, and
-          <a href="#">links</a> can be used as well.
-        </p>
-        <p>
-          Semantic elements with specific use cases, such as
-          <abbr title="Abbreviation">abbr</abbr> elements and dates (since
-          <time datetime="2025-10-03">Oct 3, 2025</time>) are supported.
-        </p>
-        <blockquote>
-          <p>Blockquotes are styled appropriately if included.</p>
-          <footer>— Someone Famous</footer>
-        </blockquote>
-        <p>
-          We can include additional paragraphs. These paragraphs may include
-          inline <code>code</code> elements. In order to include full block of
-          code, you can wrap a <code>code</code> element within a
-          <code>pre</code> element:
-        </p>
-        <p></p>
-        <pre><code>&lt;pre&gt;
+      <article>
+        <section id="overview">
+          <h2>Overview</h2>
+          <p>
+            Common semantic block elements, such as paragraphs are supported.
+            Inline elements such as <em>emphasis</em>, <strong>strong</strong>,
+            <code>code()</code>, <mark>highlight</mark>, and
+            <a href="#">links</a> can be used as well.
+          </p>
+          <p>
+            Semantic elements with specific use cases, such as
+            <abbr title="Abbreviation">abbr</abbr> elements and dates (since
+            <time datetime="2025-10-03">Oct 3, 2025</time>) are supported.
+          </p>
+          <blockquote>
+            <p>Blockquotes are styled appropriately if included.</p>
+            <footer>— Someone Famous</footer>
+          </blockquote>
+        </section>
+        <section id="code">
+          <h2>Code</h2>
+          <p>
+            We can include additional paragraphs. These paragraphs may include
+            inline <code>code</code> elements. In order to include full block of
+            code, you can wrap a <code>code</code> element within a
+            <code>pre</code> element:
+          </p>
+          <p></p>
+          <pre><code>&lt;pre&gt;
   &lt;code&gt;
     if i % 3 == 0:
       print("foo")
@@ -57,157 +61,173 @@
       print("bar")
   &lt;/code&gt;
 &lt;/pre&gt;</code></pre>
-        <figure>
-          <img
-            src="1280.webp"
-            alt="Placeholder image"
-            width="1280"
-            height="853" />
-          <figcaption>Figure: Images and figures can be included</figcaption>
-        </figure>
-        <ol>
-          <li>Support ordered lists</li>
-          <li>
-            Support unordered lists
-            <ul>
-              <li>Nesting is supported</li>
-              <li>Indentation matches other elements</li>
-            </ul>
-          </li>
-          <li>?</li>
-          <li>Profit</li>
-        </ol>
-        <details>
-          <summary>Spoiler</summary>
-          <p>Content can be hidden until expanded.</p>
-        </details>
+        </section>
+        <section id="media">
+          <h2>Media</h2>
+          <figure>
+            <img
+              src="1280.webp"
+              alt="Placeholder image"
+              width="1280"
+              height="853" />
+            <figcaption>Figure: Images and figures can be included</figcaption>
+          </figure>
+          <figure>
+            <img src="330.webp" alt="Thumb 1" width="330" height="220" />
+            <figcaption>Thumb 1</figcaption>
+          </figure>
+          <figure>
+            <img src="330.webp" alt="Thumb 2" width="330" height="220" />
+            <figcaption>Thumb 2</figcaption>
+          </figure>
+        </section>
+        <section id="lists">
+          <h2>Lists</h2>
+          <ol>
+            <li>Support ordered lists</li>
+            <li>
+              Support unordered lists
+              <ul>
+                <li>Nesting is supported</li>
+                <li>Indentation matches other elements</li>
+              </ul>
+            </li>
+            <li>?</li>
+            <li>Profit</li>
+          </ol>
+          <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+          </dl>
 
-        <table>
-          <caption>
-            Table Support
-          </caption>
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Available</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Captions</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>Headers</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>Responsive</td>
-              <td>Yes</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <dl>
-          <dt>HTML</dt>
-          <dd>HyperText Markup Language</dd>
-          <dt>CSS</dt>
-          <dd>Cascading Style Sheets</dd>
-        </dl>
-
-        <figure>
+          <details>
+            <summary>Spoiler</summary>
+            <p>Content can be hidden until expanded.</p>
+          </details>
+        </section>
+        <section id="tables">
+          <h2>Tables</h2>
           <table>
             <caption>
-              HTML Tags
+              Table Support
             </caption>
             <thead>
               <tr>
-                <th>Tag</th>
-                <th>Description</th>
-                <th>Typical Use</th>
-                <th>Default Display</th>
-                <th>CSS Property</th>
-                <th>Value Example</th>
-                <th>Browser Support</th>
-                <th>Notes</th>
+                <th>Feature</th>
+                <th>Available</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>&lt;header&gt;</td>
-                <td>Page header section</td>
-                <td>Wrap site title & navigation</td>
-                <td>Block</td>
-                <td>background-color</td>
-                <td>#f8f9fa</td>
-                <td>All modern browsers</td>
-                <td>Often contains &lt;nav&gt;</td>
+                <td>Captions</td>
+                <td>Yes</td>
               </tr>
               <tr>
-                <td>&lt;section&gt;</td>
-                <td>Thematic grouping of content</td>
-                <td>Separate article or chapter</td>
-                <td>Block</td>
-                <td>margin</td>
-                <td>0 0 1.5rem 0</td>
-                <td>All modern browsers</td>
-                <td>Use with &lt;h2&gt;–&lt;h6&gt; headings</td>
+                <td>Headers</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Responsive</td>
+                <td>Yes</td>
               </tr>
             </tbody>
           </table>
-          <figcaption>Wrapping `table` in `figure` allows scrolling</figcaption>
-        </figure>
-        <h2>Gallery</h2>
-        <figure>
-          <img src="330.webp" alt="Thumb 1" width="330" height="220" />
-          <figcaption>Thumb 1</figcaption>
-        </figure>
-        <figure>
-          <img src="330.webp" alt="Thumb 2" width="330" height="220" />
-          <figcaption>Thumb 2</figcaption>
-        </figure>
-        <h2>Forms</h2>
-        <form action="#" method="post" autocomplete="off">
-          <fieldset>
-            <legend>Send a message</legend>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Your name" />
 
-            <label for="email">Email</label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="you@example.com" />
+          <figure>
+            <table>
+              <caption>
+                HTML Tags
+              </caption>
+              <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Description</th>
+                  <th>Typical Use</th>
+                  <th>Default Display</th>
+                  <th>CSS Property</th>
+                  <th>Value Example</th>
+                  <th>Browser Support</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&lt;header&gt;</td>
+                  <td>Page header section</td>
+                  <td>Wrap site title & navigation</td>
+                  <td>Block</td>
+                  <td>background-color</td>
+                  <td>#f8f9fa</td>
+                  <td>All modern browsers</td>
+                  <td>Often contains &lt;nav&gt;</td>
+                </tr>
+                <tr>
+                  <td>&lt;section&gt;</td>
+                  <td>Thematic grouping of content</td>
+                  <td>Separate article or chapter</td>
+                  <td>Block</td>
+                  <td>margin</td>
+                  <td>0 0 1.5rem 0</td>
+                  <td>All modern browsers</td>
+                  <td>Use with &lt;h2&gt;–&lt;h6&gt; headings</td>
+                </tr>
+              </tbody>
+            </table>
+            <figcaption>
+              Wrapping `table` in `figure` allows scrolling
+            </figcaption>
+          </figure>
+        </section>
+        <section id="forms">
+          <h2>Forms</h2>
+          <form action="#" method="post" autocomplete="off">
+            <fieldset>
+              <legend>Send a message</legend>
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name" />
 
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              placeholder="Write something…"></textarea>
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com" />
 
-            <label
-              >Planet
-              <select name="planet">
-                <option value="3">Earth</option>
-                <option value="4">Mars</option>
-              </select>
-            </label>
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write something…"></textarea>
 
-            <label
-              >Theme Color <input name="color" type="color" value="#007050"
-            /></label>
+              <label
+                >Planet
+                <select name="planet">
+                  <option value="3">Earth</option>
+                  <option value="4">Mars</option>
+                </select>
+              </label>
 
-            <label
-              ><input type="checkbox" name="subscribe" /> Subscribe to
-              updates</label
-            >
+              <label
+                >Theme Color <input name="color" type="color" value="#007050"
+              /></label>
 
-            <button type="submit">Send</button>
-          </fieldset>
-        </form>
-      </section>
+              <label
+                ><input type="checkbox" name="subscribe" /> Subscribe to
+                updates</label
+              >
+
+              <button type="submit">Send</button>
+            </fieldset>
+          </form>
+        </section>
+      </article>
     </main>
 
     <footer>
