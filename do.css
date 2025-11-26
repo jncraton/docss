@@ -36,6 +36,10 @@ fieldset {
   border: 0;
 }
 
+fieldset {
+  padding-inline: 0;
+}
+
 /* Size and center 1st-level elements */
 body > * {
   max-width: var(--w);
