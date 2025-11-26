@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="do.css" />
-    <title>Classless Stylesheet Test</title>
+    <title>ᵈᵒcₛₛ - A simple stylesheet for web documents</title>
   </head>
   <body>
     <header>
       <h1>ᵈᵒcₛₛ</h1>
-      <p>A minimal test page for a classless stylesheet</p>
+      <p>A simple stylesheet for web documents</p>
       <nav>
         <menu>
-          <li><a href="#home">Home</a></li>
+          <li><a href="#overview">Overview</a></li>
           <li><a href="#articles">Articles</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -25,31 +25,33 @@
     </header>
 
     <main>
-      <section id="home">
-        <h2>Welcome</h2>
+      <section id="overview">
+        <h2>Overview</h2>
         <p>
-          This section demonstrates paragraphs, emphasis, strong, and inline
-          elements: <em>emphasis</em>, <strong>strong</strong>,
-          <code>code()</code>, <mark>highlight</mark>, and a
-          <a href="#">sample link</a>.
+          Common semantic block elements, such as paragraphs are supported.
+          Inline elements such as <em>emphasis</em>, <strong>strong</strong>,
+          <code>code()</code>, <mark>highlight</mark>, and
+          <a href="#">links</a> can be used as well.
         </p>
         <blockquote>
-          <p>“A short example blockquote to check quotation styling.”</p>
+          <p>Blockquotes are styled appropriately if included.</p>
           <footer>— Someone Famous</footer>
         </blockquote>
-        <p>Here is a short paragraph.</p>
         <p>
-          We can include addition paragraphs. These paragraphs may include
+          We can include additional paragraphs. These paragraphs may include
           inline <code>code</code> elements. In order to include full block of
           code, you can wrap a <code>code</code> element within a
-          <code>pre</code> element.
+          <code>pre</code> element:
         </p>
         <p></p>
-        <pre><code>for i in range 10:
+        <pre><code>&lt;pre&gt;
+  &lt;code&gt;
     if i % 3 == 0:
       print("foo")
     else:
-      print("bar")</code></pre>
+      print("bar")
+  &lt;/code&gt;
+&lt;/pre&gt;</code></pre>
       </section>
 
       <section id="articles">
