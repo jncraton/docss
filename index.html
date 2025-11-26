@@ -33,6 +33,11 @@
           <code>code()</code>, <mark>highlight</mark>, and
           <a href="#">links</a> can be used as well.
         </p>
+        <p>
+          Semantic elements with specific use cases, such as
+          <abbr title="Abbreviation">abbr</abbr> elements and dates (since
+          <time datetime="2025-10-03">Oct 3, 2025</time>) are supported.
+        </p>
         <blockquote>
           <p>Blockquotes are styled appropriately if included.</p>
           <footer>— Someone Famous</footer>
@@ -52,153 +57,106 @@
       print("bar")
   &lt;/code&gt;
 &lt;/pre&gt;</code></pre>
-      </section>
+        <figure>
+          <img
+            src="1280.webp"
+            alt="Placeholder image"
+            width="1280"
+            height="853" />
+          <figcaption>Figure: Images and figures can be included</figcaption>
+        </figure>
+        <ol>
+          <li>Support ordered lists</li>
+          <li>
+            Support unordered lists
+            <ul>
+              <li>Nesting is supported</li>
+              <li>Indentation matches other elements</li>
+            </ul>
+          </li>
+          <li>?</li>
+          <li>Profit</li>
+        </ol>
+        <details>
+          <summary>Spoiler</summary>
+          <p>Content can be hidden until expanded.</p>
+        </details>
 
-      <section id="articles">
-        <h2>Articles</h2>
+        <table>
+          <caption>
+            Table Support
+          </caption>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Captions</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Headers</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Responsive</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
 
-        <article>
-          <header>
-            <h3>Article One</h3>
-            <p>By Author — <time datetime="2025-10-03">Oct 3, 2025</time></p>
-          </header>
-          <p>
-            Lead paragraph for article one. It includes an inline
-            <abbr title="HyperText Markup Language">HTML</abbr> abbreviation and
-            a small <small>fine-print</small> note.
-          </p>
-          <pre>
-d o.c
-    s
-    s</pre
-          >
-          <figure>
-            <img
-              src="1280.webp"
-              alt="Placeholder image"
-              width="1280"
-              height="853" />
-            <figcaption>
-              Figure: placeholder image used for layout testing.
-            </figcaption>
-          </figure>
-          <p>
-            Continuation of the article with a simple ordered list of steps:
-          </p>
-          <ol>
-            <li>First step</li>
-            <li>
-              Second step with a nested list:
-              <ul>
-                <li>Nested item A</li>
-                <li>Nested item B</li>
-              </ul>
-            </li>
-            <li>Third step</li>
-          </ol>
-          <details>
-            <summary>More info</summary>
-            <p>
-              This content is hidden until the user expands the details element.
-            </p>
-          </details>
-          <footer>
-            <p>Tags: <a href="#">example</a>, <a href="#">test</a></p>
-          </footer>
-        </article>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+        </dl>
 
-        <article>
-          <header>
-            <h3>Article Two</h3>
-          </header>
-          <p>Short article demonstrating a table and definition list below.</p>
-
+        <figure>
           <table>
             <caption>
-              Sample table
+              HTML Tags
             </caption>
             <thead>
               <tr>
-                <th>Feature</th>
-                <th>Available</th>
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Typical Use</th>
+                <th>Default Display</th>
+                <th>CSS Property</th>
+                <th>Value Example</th>
+                <th>Browser Support</th>
+                <th>Notes</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Responsive</td>
-                <td>Yes</td>
+                <td>&lt;header&gt;</td>
+                <td>Page header section</td>
+                <td>Wrap site title & navigation</td>
+                <td>Block</td>
+                <td>background-color</td>
+                <td>#f8f9fa</td>
+                <td>All modern browsers</td>
+                <td>Often contains &lt;nav&gt;</td>
               </tr>
               <tr>
-                <td>Accessible</td>
-                <td>Depends</td>
+                <td>&lt;section&gt;</td>
+                <td>Thematic grouping of content</td>
+                <td>Separate article or chapter</td>
+                <td>Block</td>
+                <td>margin</td>
+                <td>0 0 1.5rem 0</td>
+                <td>All modern browsers</td>
+                <td>Use with &lt;h2&gt;–&lt;h6&gt; headings</td>
               </tr>
             </tbody>
           </table>
-
-          <dl>
-            <dt>HTML</dt>
-            <dd>HyperText Markup Language</dd>
-            <dt>CSS</dt>
-            <dd>Cascading Style Sheets</dd>
-          </dl>
-
-          <figure>
-            <table>
-              <caption>
-                HTML Tags
-              </caption>
-              <thead>
-                <tr>
-                  <th>Tag</th>
-                  <th>Description</th>
-                  <th>Typical Use</th>
-                  <th>Default Display</th>
-                  <th>CSS Property</th>
-                  <th>Value Example</th>
-                  <th>Browser Support</th>
-                  <th>Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>&lt;header&gt;</td>
-                  <td>Page header section</td>
-                  <td>Wrap site title & navigation</td>
-                  <td>Block</td>
-                  <td>background-color</td>
-                  <td>#f8f9fa</td>
-                  <td>All modern browsers</td>
-                  <td>Often contains &lt;nav&gt;</td>
-                </tr>
-                <tr>
-                  <td>&lt;section&gt;</td>
-                  <td>Thematic grouping of content</td>
-                  <td>Separate article or chapter</td>
-                  <td>Block</td>
-                  <td>margin</td>
-                  <td>0 0 1.5rem 0</td>
-                  <td>All modern browsers</td>
-                  <td>Use with &lt;h2&gt;–&lt;h6&gt; headings</td>
-                </tr>
-              </tbody>
-            </table>
-            <figcaption>
-              Wrapping `table` in `figure` allows scrolling
-            </figcaption>
-          </figure>
-        </article>
-      </section>
-
-      <aside aria-labelledby="related-heading">
-        <h2 id="related-heading">Related</h2>
-        <p>Short aside content with a definition and a link.</p>
-        <ul>
-          <li><a href="#">Related item 1</a></li>
-          <li><a href="#">Related item 2</a></li>
-        </ul>
-      </aside>
-
-      <section id="gallery">
+          <figcaption>Wrapping `table` in `figure` allows scrolling</figcaption>
+        </figure>
         <h2>Gallery</h2>
         <figure>
           <img src="330.webp" alt="Thumb 1" width="330" height="220" />
@@ -208,10 +166,7 @@ d o.c
           <img src="330.webp" alt="Thumb 2" width="330" height="220" />
           <figcaption>Thumb 2</figcaption>
         </figure>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
+        <h2>Forms</h2>
         <form action="#" method="post" autocomplete="off">
           <fieldset>
             <legend>Send a message</legend>
